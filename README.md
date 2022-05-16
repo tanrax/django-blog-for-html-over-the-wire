@@ -14,8 +14,18 @@ Complete example of how to create a Blog with HTML over the Wire architecture in
 
 ## Run 🏃
 
+1. Up
+
 ```
 docker-compose up
+```
+
+2. Add data. 
+
+Run in Django container.
+
+```
+./manage.py shell < make_fake_data.py
 ```
 
 ## Thanks 😍
